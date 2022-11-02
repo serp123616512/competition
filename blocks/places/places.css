@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(50%, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(500px, 1fr));
 }
 
 .place:nth-child(even) {
@@ -10,7 +10,7 @@
 
 .place__image {
   width: 100%;
-  aspect-ratio: 1.25/1;
+  aspect-ratio: 1.2/1;
   object-fit: cover;
 }
 .place__container {
@@ -23,8 +23,9 @@
 }
 .place__heading {
   margin: 0;
-  font-size: 42px;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
 }
 .place__text {
   display: flex;
@@ -33,8 +34,10 @@
 }
 .place__paragraph {
   margin: 0;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  text-align: justify;
 }
 
 

@@ -1,6 +1,6 @@
+/*отступы между секциями*/
 .content {
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 1.5;
-  word-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
 }

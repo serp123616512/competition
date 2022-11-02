@@ -8,11 +8,20 @@
 .quotes::before {
   content: "люди";
   color: #fecda7;
+  font-family: 'Roboto-condensed', Arial, sans-serif;
+  /*color: #fecda7; */
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  word-spacing: 0.4em;
   margin: 0;
   text-transform: uppercase;
 }
 
 .quotes__heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
   margin: 50px 0;
 }
 
@@ -22,12 +31,23 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 15px;
+  column-gap: 100px;
 }
 
 .quote__heading {
+  font-family: 'Roboto-condensed', Arial, sans-serif;
+  /*color: #fecda7; */
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  word-spacing: 0.4em;
+  text-transform: uppercase;
   margin: 0 0 16px;
 }
 .quote__text {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  text-align: justify;
   margin: 16px 0 0;
 }

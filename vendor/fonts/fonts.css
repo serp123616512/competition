@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  src: url('./raleway-400.woff2') format('woff2'),
-       url('./raleway-400.woff') format('woff');
+  src: url('./Raleway-600.woff2') format('woff2'),
+       url('./Raleway-600.woff') format('woff');
 }
 
 @font-face {
@@ -12,16 +12,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('./raleway-v28-cyrillic-700.woff2') format('woff2'),
-       url('./raleway-v28-cyrillic-700.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 900;
-  src: url('./raleway-v28-cyrillic-900.woff2') format('woff2'),
-       url('./raleway-v28-cyrillic-900.woff') format('woff');
+  src: url('./Raleway-700.woff2') format('woff2'),
+       url('./Raleway-700.woff') format('woff');
 }
 
 @font-face {
@@ -29,6 +21,6 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('./roboto-condensed-v25-cyrillic-700.woff2') format('woff2'),
-       url('./roboto-condensed-v25-cyrillic-700.woff') format('woff');
+  src: url('./Roboto-condensed-700.woff2') format('woff2'),
+       url('./Roboto-condensed-700.woff') format('woff');
 }
