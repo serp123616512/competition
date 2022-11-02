@@ -8,7 +8,7 @@
 .quotes::before {
   content: "люди";
   color: #fecda7;
-  margin: 50px 0 0;
+  margin: 0;
   text-transform: uppercase;
 }
 

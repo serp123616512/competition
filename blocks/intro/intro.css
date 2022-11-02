@@ -1,5 +1,5 @@
 .intro {
-  padding: 100px 48px;
+  padding: 0 48px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   position: relative;
