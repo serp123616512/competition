@@ -4,8 +4,17 @@
   justify-content: center;
   align-items: center;
   min-height: 400px;
+  transition: backround-image 0.3s;
+}
+
+/*попыталась по ховеру отобразить картинку, но не смогла размеры подогнать*/
+.footer:hover {
+  background-image: url(../../961700.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer__copyright {
   margin: 0;
 }
+

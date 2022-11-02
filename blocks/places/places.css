@@ -1,8 +1,13 @@
 .place {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(50%, 1fr));
-
 }
+
+.place:nth-child(even) {
+  direction: rtl;
+  text-align: left;
+}
+
 .place__image {
   width: 100%;
   aspect-ratio: 1.25/1;
@@ -33,7 +38,4 @@
 }
 
 
-.place_mountains {
-  direction: rtl;
-  text-align: left;
-}
+

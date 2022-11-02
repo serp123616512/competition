@@ -7,6 +7,8 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/quotes/quotes.css);
 
+@import url(../blocks/link/link.css);
+
 .page {
   min-width: 320px;
   max-width: 1280px;
@@ -14,7 +16,10 @@
   padding-top: 30px;
   box-sizing: border-box;
   font-family: "Inter", Arial, Helvetica, sans-serif;
+
 }
 
-
-
+/*плавная прокрутка при нажатии на ссылки в хэдере*/
+html {
+  scroll-behavior: smooth;
+}
