@@ -1,0 +1,33 @@
+.header {
+  padding: 0 48px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header__links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+
+.header__button {
+  padding: 0;
+  border: none;
+  background-color: white;
+  transition: opacity 0.3s, color 0.3s;
+}
+
+.header__button:hover {
+  opacity: 0.5;
+  color: #fecda7;
+}

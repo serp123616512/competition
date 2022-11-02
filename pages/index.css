@@ -1,106 +1,20 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/quotes/quotes.css);
+
 .page {
   min-width: 320px;
   max-width: 1280px;
   margin: auto;
   padding-top: 30px;
   box-sizing: border-box;
-}
-
-.header {
-  padding: 0 48px;
-  margin-bottom: 50px;
-
-}
-
-.header__links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  column-gap: 30px;
-}
-
-.header__links-item:last-child {
-  margin-left: auto;
-}
-
-.header__link {
-  text-decoration: none;
-  color: black;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 
-.intro {
-  padding: 0 48px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  position: relative;
-}
 
-.intro__heading::before {
-  content: "куда я поеду";
-  color: #fecda7;
-  position: absolute;
-  top: 0;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-
-.intro__heading {
-  font-size: 40px;
-  align-self: center;
-}
-
-
-.intro__image {
-  width: 50%;
-  aspect-ratio: 1/1;
-  margin: auto;
-}
-
-
-.quotes {
-  padding: 0 48px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.quotes::before {
-  content: "люди";
-  color: #fecda7;
-  margin: 50px 0 0;
-  text-transform: uppercase;
-}
-
-.quotes__heading {
-  margin: 50px 0;
-}
-
-.quotes__list {
-  margin: 50px 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  column-gap: 48px;
-}
-.quote__heading {
-  margin: 0 0 16px;
-}
-.quote__text {
-  margin: 16px 0 0;
-}
-
-.footer {
-  background-color: #fecda7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 400px;
-}
-
-.footer__copyright {
-  margin: 0;
-}
