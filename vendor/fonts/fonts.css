@@ -2,7 +2,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('./Inter-400.woff2') format('woff2'),
+  src: url(./Inter-400.woff2) format('woff2'),
        url('./Inter-400.woff') format('woff');
 }
 
