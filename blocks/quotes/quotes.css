@@ -1,0 +1,33 @@
+.quotes {
+  padding: 0 48px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.quotes::before {
+  content: "люди";
+  color: #fecda7;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.quotes__heading {
+  margin: 50px 0;
+}
+
+.quotes__list {
+  margin: 50px 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+}
+
+.quote__heading {
+  margin: 0 0 16px;
+}
+.quote__text {
+  margin: 16px 0 0;
+}

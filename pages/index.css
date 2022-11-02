@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/quotes/quotes.css);
+
+@import url(../blocks/link/link.css);
+
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: auto;
+  padding-top: 60px;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+/*плавная прокрутка при нажатии на ссылки в хэдере*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*отступы между секциями*/
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
