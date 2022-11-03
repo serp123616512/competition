@@ -18,4 +18,5 @@
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   padding-top: 60px;
+  position: relative;
 }

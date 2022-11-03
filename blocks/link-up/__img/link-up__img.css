@@ -1,0 +1,9 @@
+.link-up__img {
+  width: 50px;
+  height: 50px;
+  background-image: url('../../../images/arrow_circle_up.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5px;
+}
