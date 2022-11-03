@@ -1,3 +1,11 @@
 .header__link {
   margin: 0;
 }
+
+
+@media screen and (max-width:405px) {
+  .header__link {
+    text-transform: uppercase;
+    padding: 2px;
+  }
+}
