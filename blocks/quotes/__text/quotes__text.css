@@ -1,0 +1,7 @@
+.quotes__text {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  /*text-align: justify;*/
+  margin: 16px 0 0;
+}

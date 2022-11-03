@@ -8,26 +8,12 @@
 .quotes::before {
   content: "люди";
   color: #fecda7;
+  font-family: 'Roboto-condensed', Arial, sans-serif;
+  /*color: #fecda7; */
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  word-spacing: 0.4em;
   margin: 0;
   text-transform: uppercase;
-}
-
-.quotes__heading {
-  margin: 50px 0;
-}
-
-.quotes__list {
-  margin: 50px 0;
-  padding: 0;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 15px;
-}
-
-.quote__heading {
-  margin: 0 0 16px;
-}
-.quote__text {
-  margin: 16px 0 0;
 }

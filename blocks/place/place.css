@@ -1,0 +1,8 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px, 1fr));
+}
+
+.place:nth-child(even)>.place__image {
+  order: 1;
+}

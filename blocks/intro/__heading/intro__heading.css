@@ -1,0 +1,41 @@
+.intro__heading {
+  align-self: center;
+  font-weight: 700;
+  /*font-size: 38px;*/
+  font-size: clamp(0.8rem, 0.2750rem + 2.6250vw, 2.375rem); /*страшно выглядит))*/
+  line-height: 1.5;
+  margin: 0;
+  position: relative;
+}
+
+.intro__heading::before {
+  content: "куда я поеду";
+  color: #fecda7;
+  font-family: 'Roboto-condensed', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  word-spacing: 0.4em;
+  letter-spacing: 1px; /*перевести в em*/
+  position: absolute;
+  top: -30px; /*если отрицательные нельзя, то переделать в subtitle*/
+  left: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:600px) {
+  .intro__heading {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .intro__heading {
+    padding: 0 8px;
+  }
+  .intro__heading::before {
+    padding: 0 8px;
+    top: -15px;
+    font-size: 10px;
+  }
+}

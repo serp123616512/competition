@@ -1,41 +1,4 @@
-.place {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(50%, 1fr));
-}
 
-.place:nth-child(even) {
-  direction: rtl;
-  text-align: left;
-}
-
-.place__image {
-  width: 100%;
-  aspect-ratio: 1.25/1;
-  object-fit: cover;
-}
-.place__container {
-  background-color: #f2f2f2;
-  padding: 0 48px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.place__heading {
-  margin: 0;
-  font-size: 42px;
-  font-weight: 900;
-}
-.place__text {
-  display: flex;
-  flex-direction: column;
-  row-gap: 18px;
-}
-.place__paragraph {
-  margin: 0;
-  font-size: 18px;
-  line-height: 1.6;
-}
 
 
 
