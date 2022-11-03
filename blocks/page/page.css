@@ -17,6 +17,5 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
-  padding-top: 60px;
-  position: relative;
+  padding-top: clamp(16px, 5vw, 60px);
 }

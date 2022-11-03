@@ -1,0 +1,14 @@
+.place__container {
+  background-color: #f2f2f2;
+  padding: 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+  .place__container {
+    padding: 0 30px;
+  }
+}

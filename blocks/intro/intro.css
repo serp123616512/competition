@@ -2,33 +2,24 @@
   padding: 0 48px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  position: relative;
-}
-
-.intro__heading::before {
-  content: "куда я поеду";
-  color: #fecda7;
-  font-family: 'Roboto-condensed', Arial, sans-serif;
-  /*color: #fecda7; */
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 1.5;
-  word-spacing: 0.4em;
-  position: absolute;
-  top: 0;
-  text-transform: uppercase;
 }
 
 
-.intro__heading {
-  align-self: center;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.5;
+@media screen and (max-width:600px) {
+  .intro {
+    padding: 0 24px;
+    grid-template-columns: minmax(320px, 1fr);
+  }
 }
 
-.intro__image {
-  width: 50%;
-  aspect-ratio: 1/1;
-  margin: auto;
+@media screen and (max-width:475px) {
+  .intro {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .intro {
+    padding: 0;
+  }
 }
