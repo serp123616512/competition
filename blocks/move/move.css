@@ -1,0 +1,15 @@
+@keyframes move {
+  from {
+    left: -75px;
+  }
+  to {
+    left: 1957.5px;
+  }
+}
+
+.move {
+  position: absolute;
+  left: -75px;
+  height: 75px;
+  object-fit: contain;
+}

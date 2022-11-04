@@ -1,8 +1,16 @@
 .place__heading {
   width: 100%;
-  margin: 0;
+  margin: 0 0 10px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1;
   text-align: left;
+
 }
+
+@media screen and (max-width: 952px) {
+  .place__heading {
+    max-width: 380px;
+  }
+}
+

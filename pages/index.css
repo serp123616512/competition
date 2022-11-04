@@ -2,6 +2,8 @@
 
 @import url('../vendor/fonts/fonts.css');
 
+@import url('../blocks/root/root.css');
+
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/link-up/link-up.css');
@@ -15,10 +17,16 @@
 
 @import url('../blocks/content/content.css');
 
-
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__heading/intro__heading.css');
 @import url('../blocks/intro/__image/intro__image.css');
+
+@import url('../blocks/animation/animation.css');
+
+@import url('../blocks/move/move.css');
+@import url('../blocks/move/_transport/move_transport_plane.css');
+@import url('../blocks/move/_transport/move_transport_train.css');
+@import url('../blocks/move/_transport/move_transport_ship.css');
 
 @import url('../blocks/places/places.css');
 @import url('../blocks/place/place.css');
@@ -37,11 +45,11 @@
 @import url('../blocks/link/link.css');
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 
 
 /*плавная прокрутка при нажатии на ссылки в хэдере*/
 html {
-  background-color: #fecda7;
   scroll-behavior: smooth;
 }
 

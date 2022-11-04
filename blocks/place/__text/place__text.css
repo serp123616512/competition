@@ -1,7 +1,7 @@
 .place__text {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  row-gap: 15px;
   max-width: 380px;
   align-self: flex-start;
 }
@@ -9,5 +9,7 @@
 @media screen and (max-width: 952px) {
   .place__text {
     width: 100%;
+    align-self: unset;
+    row-gap: clamp(10px, 1vw, 15px);
   }
 }

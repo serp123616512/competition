@@ -18,4 +18,5 @@
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   padding-top: clamp(16px, 5vw, 60px);
+  overflow: hidden;
 }

@@ -1,20 +1,19 @@
 .place {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
   background-color: #f2f2f2;
 }
 
-.place:nth-child(even) > .place__image {
-  order: 1;
+.place:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 600px) {
   .place {
-    grid-template-columns: 1fr;
-    gap: clamp(16px, 4vw, 20px);
+    flex-direction: column;
   }
 
-  .place:nth-child(even) > .place__image {
-    order: unset;
+  .place:nth-child(even) {
+    flex-direction: column;
   }
 }
