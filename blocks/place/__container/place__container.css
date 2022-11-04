@@ -7,8 +7,20 @@
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__container {
-    padding: 0 30px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .place__container {
+    padding: 30px 24px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .place__container {
+    padding: 20px 16px;
   }
 }

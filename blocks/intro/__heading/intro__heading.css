@@ -23,19 +23,11 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width:600px) {
-  .intro__heading {
-    margin-bottom: 15px;
+
+@media screen and (max-width:475px) {
+  .intro__heading,
+  .intro__heading::before {
+    padding: 16px 16px;
   }
 }
 
-@media screen and (max-width:375px) {
-  .intro__heading {
-    padding: 0 8px;
-  }
-  .intro__heading::before {
-    padding: 0 8px;
-    top: -15px;
-    font-size: 10px;
-  }
-}

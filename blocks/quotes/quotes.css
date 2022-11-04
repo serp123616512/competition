@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 475px) {
   .quotes {
-    padding: 0 16px;
+    padding: 16px 16px;
   }
 
 }

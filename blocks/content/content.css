@@ -4,3 +4,22 @@
   flex-direction: column;
   row-gap: 150px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .content {
+    row-gap: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .content {
+    row-gap: 0;
+  }
+}

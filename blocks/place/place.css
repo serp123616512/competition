@@ -1,8 +1,21 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(375px, 1fr));
 }
 
 .place:nth-child(even)>.place__image {
   order: 1;
+}
+
+@media screen and (max-width: 749px) {
+  .place >.place__image {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place {
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+  }
+
 }

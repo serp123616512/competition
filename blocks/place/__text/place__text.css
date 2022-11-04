@@ -4,3 +4,16 @@
   row-gap: 25px;
   max-width: 70%;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    row-gap: 15px;
+  }
+}
