@@ -1,11 +1,11 @@
 .intro__image {
-  width: 70%;
+  width: 400px;
   aspect-ratio: 1/1;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 800px) {
   .intro__image {
     width: 100%;
   }

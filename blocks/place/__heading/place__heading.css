@@ -1,6 +1,8 @@
 .place__heading {
+  width: 100%;
   margin: 0;
   font-weight: 700;
   font-size: 32px;
-  line-height: 1.5;
+  line-height: 1;
+  text-align: left;
 }
