@@ -14,11 +14,21 @@
 @media screen and (max-width:768px) {
   .header {
     padding: 0 24px;
+    margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:475px) {
   .header {
     padding: 0 16px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:405px) {
+  .header {
+    flex-direction: column-reverse;
+    align-items: center;
+    row-gap: 10px;
   }
 }

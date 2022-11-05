@@ -13,3 +13,10 @@
 
 }
 
+@media screen and (max-width:405px) {
+  .header__links {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+}

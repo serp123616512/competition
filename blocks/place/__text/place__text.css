@@ -13,3 +13,16 @@
     row-gap: clamp(10px, 1vw, 15px);
   }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    row-gap: 15px;
+  }
+}
