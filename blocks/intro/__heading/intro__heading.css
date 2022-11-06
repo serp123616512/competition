@@ -20,7 +20,7 @@
   letter-spacing: .08em;
   padding: 0 48px;
   position: absolute;
-  top: -30px; /*если отрицательные нельзя, то переделать в subtitle*/
+  top: -30px;
   left: 0;
   text-transform: uppercase;
 }
@@ -62,4 +62,3 @@
     font-size: clamp(32px, 10vw, 38px);
   }
 }
-

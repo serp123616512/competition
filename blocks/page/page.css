@@ -20,3 +20,9 @@
   padding-top: clamp(16px, 5vw, 60px);
   overflow: hidden;
 }
+
+@media screen and (max-width:600px) {
+  .page {
+  padding-top: 0;
+  }
+}

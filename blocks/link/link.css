@@ -8,3 +8,9 @@
   opacity: .5;
   color: #fecda7;
 }
+
+@media screen and (max-width:600px) {
+  .link:hover {
+    color: white;
+  }
+}

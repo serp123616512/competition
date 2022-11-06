@@ -1,34 +1,30 @@
 .quotes {
-  padding: 0 48px;
+  width: 100%;
+  padding: 100px 48px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 .quotes::before {
   content: "люди";
   color: #fecda7;
   font-family: 'Roboto-condensed', Arial, sans-serif;
-  /*color: #fecda7; */
   font-weight: 700;
   font-size: 13px;
-  line-height: 1.5;
-  word-spacing: 0.4em;
+  word-spacing: .4em;
   margin: 0;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:800px) {
   .quotes {
+    max-width: 736px;
     padding: 0 24px;
   }
-
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
   .quotes {
-    padding: 16px 16px;
+    padding: 16px;
   }
-
 }
-

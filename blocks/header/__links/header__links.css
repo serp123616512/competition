@@ -1,4 +1,6 @@
 .header__links {
+  font-weight: 700;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -6,17 +8,11 @@
   column-gap: 30px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:600px) {
   .header__links {
-    column-gap: 15px;
-  }
-
-}
-
-@media screen and (max-width:405px) {
-  .header__links {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  font-size: 30px;
   }
 }

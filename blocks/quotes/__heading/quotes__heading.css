@@ -3,8 +3,14 @@
   /*color: #fecda7; */
   font-weight: 700;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1;
   word-spacing: 0.4em;
   text-transform: uppercase;
   margin: 0 0 16px;
+}
+
+@media screen and (max-width: 530px) {
+  .quotes__heading {
+    margin-bottom: 10px;
+  }
 }
